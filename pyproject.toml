@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "kaomoji"
+version = "0.1.0"
+description = "Create procedurally generated kaomoji (i.e., Japanese emoticons) using Python! \\(^ヮ^)/"
+authors = ["Keith Dowd <keith.dowd@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/keithdowd/kaomoji"
+repository = "https://github.com/keithdowd/kaomoji"
+documentation = "https://github.com/keithdowd/kaomoji"
+keywords = ["kaomoji", "emoji", "emoticon"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Communications :: Chat",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    "CHANGELOG",
+    "CONTRIBUTING",
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^19.10b0"
+flake8 = "^3.8.2"
+mypy = "^0.780"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
