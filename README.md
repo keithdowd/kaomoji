@@ -4,7 +4,6 @@
 
 ![version](https://img.shields.io/pypi/v/kaomoji?style=for-the-badge)
 ![python version](https://img.shields.io/pypi/pyversions/kaomoji?style=for-the-badge)
-![license](https://img.shields.io/pypi/l/kaomoji?style=for-the-badge)
 
 This Python package uses procedural generation to create _kaomoji_ using a collection of features (e.g., eyes, arms, etc.) across a wide variety of different categories, such as emotions (e.g., joy, indifference, love) and animals (e.g., dog, cat, etc.). Also, the individual _kaomoji_ features and template used to organize the features are fully customizable.
 
